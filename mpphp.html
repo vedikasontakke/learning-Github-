@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML FORMS</title>
+        <style type="text/css">
+        *{
+           margin:0;
+           padding:0; 
+         }
+         body
+         {
+            background-position:center;
+            background-size:cover;
+            font-family:sans-serif;
+            margin-top:10px;
+         }
+         .regform
+         {
+            width:500px;
+            background-color:blue;
+            margin:auto;
+            color:#fbff00;
+            padding:15px 0px 0px 0px;
+            text-align:center;
+            border-radius:0px 0px 0px 0px;
+         }
+         .main
+         {
+             background-color:rgb(0,0,0,5);
+             width:100px;
+             margin:auto;
+         }
+         form
+         {
+            padding:250px;
+         }
+         .name
+         {
+            margin-left:60px;
+            margin-top:-10px;
+            width:150px;
+            color:black;
+            font-size:18px;
+            font-weight:700;
+         }
+         .firstname
+         {
+             position:relative;
+             left:200px;
+             top:-200px;
+             line-height:35px;
+             border-radius:6px;
+             padding:0 22px;
+             font-size:13px;
+             color:#555;
+         }
+         .lastname
+         {
+             position:relative;
+             left:417px;
+             top:-239px;
+             line-height:35px;
+             border-radius:6px;
+             padding:0 22px;
+             font-size:13px;
+             color:#555;
+         }
+         .firstlabel
+         {
+            position:relative;
+            color:black;
+            text-transform:capitalize;
+            font-size:14px;
+            left:203px;
+            top:-200px;
+         }
+         .lastlabel
+         {
+            position:relative;
+            color:black;
+            text-transform:capitalize;
+            font-size:14px;
+            left:490px;
+            top:-228px;
+         }
+         .branch
+         {
+             position:relative;
+             left:200px;
+             top: -37px;
+             line-height:40px;
+             width:532px;
+             height:40px;
+             border-radius:6px;
+             padding:0 22px;
+             font-size:16px;
+             color:#555;
+             outline:none;
+             overflow:hidden;
+         }
+         .option option
+         {
+            font-size:20px;
+         }
+         .rollno
+         {
+             position:relative;
+             left:200px;
+             top: -37px;
+             line-height:40px;
+             width:532px;
+             border-radius:6px;
+             padding:0 22px;
+             font-size:16px;
+             color:#555;
+         }
+         .password
+         {
+             position:relative;
+             left:200px;
+             top: -37px;
+             line-height:40px;
+             width:532px;
+             border-radius:6px;
+             padding:0 22px;
+             font-size:16px;
+             color:#555;
+         }
+         .email
+         {
+             position:relative;
+             left:200px;
+             top: -37px;
+             line-height:40px;
+             width:532px;
+             border-radius:6px;
+             padding:0 22px;
+             font-size:16px;
+             color:#555;
+         }
+         .contactno
+         {
+             position:relative;
+             left:200px;
+             top: -37px;
+             line-height:40px;
+             width:532px;
+             border-radius:6px;
+             padding:0 22px;
+             font-size:16px;
+             color:#555;
+         }
+         button
+         {
+            background-color:#3baf9f;
+            display:block;
+            margin:20px 0px 0px 20px;
+            text-align:center;
+            border-radius:12px;
+            border:2px solid #366473;
+            padding:14px 110px;
+            outline:none;
+            color:white;
+            cursor:pointer;
+            transition:0.25px;
+         }
+         button:hover
+         {
+             background-color:#5390f5;
+         }
+
+        </style>
+</head>
+<body>
+    <div class="regform"><h1> Registration Form</h1><br></div>
+    <div class="mane">
+        <form>
+            <div id="name">
+            <h2 class="name">Name</h2><br>
+            <input class="firstname" type="text" name="first_name"><br>
+            <label class="firstlabel">first name</label>
+            <input class="lastname" type="text" name="last_name"><br>
+            <label class="lastlabel">last name</label>
+            </div>
+
+            <h2 class="name">Branch</h2>
+            <select class="option" name="branch"></select>
+            <option disabled="disabled" selected="selected">--Choose Option</option>
+            <option> Branch 1</option>
+            <option> Branch 2</option>
+            <option> Branch 3</option>
+
+            <h2 class="name">Roll No.</h2>
+            <input class="rollno" type="text" name="roll no.">
+
+            <h2 class="name">Password</h2>
+            <input class="password" type="password" name="password">
+
+            <h2 class="name">Email</h2>
+            <input class="email" type="text" name="email">
+
+            <h2 class="name">Contact No.</h2>
+            <input class="contactno" type="text" name="contact no.">
+            <br><br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+
